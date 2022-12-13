@@ -3,8 +3,30 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@emotion/react": "^11.5.0 ^11.9.0",
+    "@emotion/styled": "^11.3.0 ^11.8.1",
+    "@mui/material": "^5.10.17",
+    "@mui/styles": "^5.10.16",
+    "@mui/system": "^5.4.1",
+    "@mui/x-date-pickers": "^5.0.10",
+    "@popperjs/core": "2.11.6",
+    "@types/react": "^16.8.6 || ^17.0.0 ^17.0.0 || ^18.0.0",
+    "bootstrap": "5.2.3",
+    "date-fns": "^2.25.0",
+    "dayjs": "^1.10.7",
+    "firebase": "^9.15.0",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^4.0.0-alpha.2",
+    "luxon": "^1.28.0 || ^2.0.0 || ^3.0.0",
+    "material": "0.4.3",
+    "moment": "^2.29.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-router-dom": "5",
+    "routes": "2.1.0",
+    "ui": "0.2.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,5 +36,17 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
